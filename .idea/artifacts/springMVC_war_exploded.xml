@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="springMVCText:war exploded">
+  <artifact type="exploded-war" name="springMVC:war exploded">
     <output-path>$PROJECT_DIR$/target/traBridge</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springMVCText" />
+          <element id="module-output" name="springMVC" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.1.RELEASE" />
@@ -47,12 +47,16 @@
           <element id="library" level="project" name="Maven: org.testng:testng:6.14.3" />
           <element id="library" level="project" name="Maven: com.beust:jcommander:1.72" />
           <element id="library" level="project" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.7.3" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.35" />
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/traBridge/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="springMVCText/web/Web" />
+      <element id="javaee-facet-resources" facet="springMVC/web/Web" />
     </root>
   </artifact>
 </component>
